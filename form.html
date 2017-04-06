@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM PENDAFTARAN</title>
+	<style>
+		.tengah{
+			text-align: center;
+		}
+	</style>
+</head>
+	<h1 class="tengah">Form Pendaftaran</h1>
+<body>
+	<fieldset>
+		<legend class="tengah">Data Pribadi</legend>
+		<form>
+		<table>
+		<tr>
+		<td>Nama Lengkap</td>
+		<td>: <input type="text" name="namalengkap"></td>
+		</tr>
+		<tr>
+		<td>Nama Panggilan</td>
+		<td>: <input type="text" name="namapanggilan"></td>
+		</tr>
+		<tr>
+		<td>Tempat, Tanggal Lahir</td>
+		<td>: <input type="text" name="tempattanggallahir">
+				<input type="date" name="bday" min="1990-01-01"></td>
+		</tr>
+		<tr>
+		<td>Agama</td>
+		<td>: <select name="agama">
+				<option value="Katolik">Katolik</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Budha">Budha</option>
+			  	<option value="Hindu">Hindu</option>
+			  	<option value="Islam">Islam</option>
+			  	</select> </td>
+		</tr>
+		<tr>
+		<td>Jenis Kelamin</td>
+		<td>: <input type="radio" name="gender"> L <input type="radio" name="gender"> P<br> 
+			 </td>
+		</tr>
+		<tr>
+		<td>Anak ke</td>
+		<td>: <select name="anakke">
+				<option value="1">1</option>
+			  	<option value="2">2</option>
+			  	<option value="3">3</option>
+			  	<option value="4">4</option>
+			  	<option value="5">5</option>
+			  	</select>
+			Dari 
+				<select name="dari">
+				<option value="1">1</option>
+			  	<option value="2">2</option>
+			  	<option value="3">3</option>
+			  	<option value="4">4</option>
+			  	<option value="5">5</option>
+			  	</select>
+			  	Saudara
+			  	</td>	  
+		</tr>
+		<tr>
+		<td>Alamat Asal</td>
+		<td>: <input type="text" name="alamatasal"></td>
+		</tr>
+		<tr>
+		<td>Alamat Tinggal</td>
+		<td>: <input type="text" name="alamatinggal"></td>
+		</tr>
+		<tr>
+		<td>Fakultas</td>
+		<td>: <select name="fakultas">
+				<option value="FBS">FBS</option>
+				<option value="FE">FE</option>
+				<option value="FIK">FIK</option>
+			  	<option value="FIP">FIP</option>
+			  	<option value="FMIPA">FMIPA</option>
+			  	<option value="FT">FT</option>
+			  	</select> </td>
+		</tr>
+		<tr>
+		<td>Prodi</td>
+		<td>: <input type="text" name="prodi"></td>
+		</tr>
+		<tr>
+		<td>No HP</td>
+		<td>: <input type="text" name="nohp"></td>
+		</tr>
+		<tr>
+		<td>Email</td>
+		<td>: <input type="text" name="email"> <input type="text" value="@student.uny.ac.id"> </td>
+		</tr>
+		
+		</table>
+		<div class="tengah">
+			<input type="submit" value="submit">
+		</div>
+	</fieldset>
+
+	
+
+</body>
+</html>
