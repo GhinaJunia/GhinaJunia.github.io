@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM PENDAFTARAN</title>
+	<style>
+	fieldset{
+		margin: auto;
+		width: 50%;
+	}
+	.baris{
+		width: 100%;
+		margin-top: 3px;
+	}
+	.kolom1{
+		display: inline-block;
+		width: 40%;
+	}
+	.kolom2{
+		display: inline-block;
+		width: 50%;
+	}
+		.tengah{
+			text-align: center;
+			margin: auto;
+		}
+		.tengahin{
+			margin-top: 5%;
+		}
+	.tengahin .baris:hover{background-color: rgb(193,240,193);
+	</style>
+</head>
+	
+<body>
+<div class="tengahin">
+<h1 class="tengah">Form Pendaftaran</h1>
+	<fieldset>
+		<legend>Data Pribadi</legend>
+		<form action oninput="x.value=parseInt(a.value)">
+		<div class="tabel">
+			<div class="baris">
+				<div class="kolom1">
+				Nama Lengkap
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="namalengkap">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Nama Panggilan
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="namapanggilan">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Tempat, Tanggal Lahir
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="tempattanggallahir">
+					<input type="date" name="bday" min="1990-01-01">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Agama
+				</div>
+				<div class="kolom2">
+					: <select name="agama">
+					<option value="Katolik">Katolik</option>
+					<option value="Kristen">Kristen</option>
+					<option value="Budha">Budha</option>
+			  		<option value="Hindu">Hindu</option>
+			  		<option value="Islam">Islam</option>
+			  		</select>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Jenis Kelamin
+				</div>
+				<div class="kolom2">
+				: <input type="radio" name="gender"> L <input type="radio" name="gender"> P<br>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Anak ke
+				</div>
+				<div class="kolom2">
+					: <select name="anakke">
+				<option value="1">1</option>
+			  	<option value="2">2</option>
+			  	<option value="3">3</option>
+			  	<option value="4">4</option>
+			  	<option value="5">5</option>
+			  	</select>
+			Dari 
+				<select name="dari">
+				<option value="1">1</option>
+			  	<option value="2">2</option>
+			  	<option value="3">3</option>
+			  	<option value="4">4</option>
+			  	<option value="5">5</option>
+			  	</select>
+			  	Saudara
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Berat Badan
+				</div>
+				<div class="kolom2">
+					: 0 kg <input type="range" name="a" value="0" max="300"> 300 kg (<output name="x" for="a">0</output>)
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Alamat Asal
+				</div>
+				<div class="kolom2">
+				: <textarea name="message" rows="3" cols="30">
+				</textarea>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Alamat Tinggal
+				</div>
+				<div class="kolom2">
+				: <textarea name="message" rows="3" cols="30">
+				</textarea>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Fakultas
+				</div>
+				<div class="kolom2">
+				: <select name="fakultas">
+				<option value="FBS">FBS</option>
+				<option value="FE">FE</option>
+				<option value="FIK">FIK</option>
+			  	<option value="FIP">FIP</option>
+			  	<option value="FMIPA">FMIPA</option>
+			  	<option value="FT">FT</option>
+			  	</select>
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Prodi
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="prodi">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				No HP
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="nohp">
+				</div>
+			</div>
+			<div class="baris">
+				<div class="kolom1">
+				Email
+				</div>
+				<div class="kolom2">
+				: <input type="text" name="email">
+				</div>
+			</div>
+			<div class="baris">
+				<input type="submit" value="submit">
+
+			</div>
+		</div>
+		</form>
+	</fieldset>
+
+</div>
+</body>
+</html>
