@@ -4,11 +4,36 @@
 	<meta charset="utf-8">
 	<title>FORM PENDAFTARAN</title>
 	<style>
-	fieldset{
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+fieldset{
 		margin: auto;
 		width: 50%;
 	}
-	body {    
+	body { 
+	margin:0;
         background-image: url('./ghina.jpg');
         background-attachment: fixed;
         background-position: center;
@@ -35,10 +60,16 @@
 			margin-top: 5%;
 		}
 	.tengahin .baris:hover{background-color: rgb(193,240,193);
+		
 	</style>
 </head>
 	
 <body>
+<br>
+<div class="topnav">
+  <a href="index.html">Ghina</a>
+  <a class="active" href="form.html">Sign in</a>
+</div>
 <div class="tengahin">
 <h1 class="tengah">Form Pendaftaran</h1>
 	<fieldset>
