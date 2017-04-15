@@ -6,9 +6,6 @@
 body{ 
     height:100%;
 	   background: #ADFF2F;    
-    /*background: -webkit-linear-gradient(left, #a976ed , #8FBC8F, #ADD8E6 ); 
-    background: -o-linear-gradient(right, #a976ed , #8FBC8F, #ADD8E6); 
-    background: -moz-linear-gradient(right,#a976ed , #8FBC8F, #ADD8E6); */
     background: linear-gradient(to right,#a976ed ,  #8FBC8F, #ADD8E6); 
 
 
@@ -153,9 +150,6 @@ body{
 .badan {
 	height:100%;
 	   background: #ADFF2F;    
-   /* background: -webkit-linear-gradient(left, #a976ed , #8FBC8F, #ADD8E6 ); 
-    background: -o-linear-gradient(right, #a976ed , #8FBC8F, #ADD8E6); 
-    background: -moz-linear-gradient(right,#a976ed , #8FBC8F, #ADD8E6); */
     background: linear-gradient(to right,#a976ed ,  #8FBC8F, #ADD8E6); 
 
 }
