@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+}
+body{
+    height: 100%;
+	background: #84a3e1; 
+   background: -webkit-linear-gradient(#84a3e1, #ccebff); 
+    background: -o-linear-gradient(#84a3e1, #ccebff); 
+    background: -moz-linear-gradient(#84a3e1, #ccebff);
+    background: linear-gradient(#84a3e1, #ccebff);  
+}
+.result {
+	background-color: #ccebff;
+	text-align: center;
+	margin-top: 17%;
+	font-size: 150%;
+}
+
+#halaman{
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+.welcome {
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+#gambar{
+	position: relative;
+	width: 15%;
+	height: 100%;
+	top:5px;
+	left:5px;
+}
+
+.skor{
+	position: relative;
+	top: 17vh;
+	left: 39vw;
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Mogra', cursive;
+	position: absolute;
+	left: 13%;
+	bottom: 10px;
+}
+.gambar{
+	width:100%;
+	height:30%;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+#gambar4{
+	position: relative;
+	width:400px;
+	height:200px;
+	margin: auto;
+}
+.empat{
+	width: 50%;
+	height: 10vh;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+.linkno1{
+	position: absolute;
+	background-color:#cc9966;
+	padding: 11px;
+	border: 3px solid cornsilk;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px #888;
+	color: black;
+	font-family: 'Concert One', cursive;
+	left: 25%;
+	font-size: 100%;
+	margin-top: 10px;
+}
+.linkno1:hover{
+	background-color: #776744;
+}
+.linkno2{
+	position: absolute;
+	background-color:#cc9966;
+	padding: 10px;
+	border: 3px solid cornsilk;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px #888;
+	color: black;
+	font-family: 'Concert One', cursive;
+	right: 25%;
+	margin-top: 10px;
+}
+.linkno2:hover{
+	background-color: #776744;
+}
+.Materi{
+	display: none;
+	font-size: 200%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+}
+.masuk{
+	margin-top: 2%;
+	font-size: 50%;
+	text-align: center;
+}
+.sama{
+	position: relative;
+	background-color:#cc9966;
+	padding: 10px;
+	border: 3px solid cornsilk;
+	text-decoration: none;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px #888;
+	color: black;
+	font-family: 'Concert One', cursive;
+	margin-left: 38%;
+	width: 20%;
+}
+.isi{
+	margin-top: 20px;
+}
+.apa{
+	position: relative;
+	width: 100%;
+	height:35%;
+}
+.animasi{
+	font-size: 40px;
+	font-family: 'Mogra', cursive; 
+	position: absolute;
+	right: 16%;
+	top: 63%;
+}
+#gambar1{
+    width: 12%;
+    height: 61%;
+    float: right;
+    margin-top: 65px;
+    margin-right: 35px;
+}
+.wadah {
+	width: 80%;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.soale {
+	font-size: 7vmin;
+}
+.wadahPil {
+	margin-left: 5vmin;	
+	display: block;
+	padding: 10px;
+}
+.pilihan {
+	font-size: 5vmin;
+	width: 70vmin;
+	border: 1px #fff solid;
+	border-radius: 2px;
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 16px;
+}
+.pilABC {
+	border: 1px #fff solid;
+	border-radius: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + .pilih{
+    color: #000;
+    background: rgba(255,255,255,0.7);
+    font-weight: bold;
+}
+
+
+

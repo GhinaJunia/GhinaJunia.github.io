@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz SD</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div id="wadahQuiz" class="wadah">
+		<div id="soale" class="soale"></div>
+		<div class="wadahPil">
+			<label onclick="selectOption()">
+				<div class="pilihan" id="pilih1">
+					<input type="radio" name="pilihan" value="1" /><span class="pilABC">A</span><span id="pil1"></span>
+				</div>
+			</label>
+		</div>
+		<div class="wadahPil">
+			<label onclick="selectOption()">
+				<div class="pilihan" id="pilih2">
+					<input type="radio" name="pilihan" value="2" /><span class="pilABC">B</span><span id="pil2"></span>
+				</div>
+			</label>
+		</div>
+		<div class="wadahPil">
+			<label onclick="selectOption()">
+				<div class="pilihan" id="pilih3">
+					<input type="radio" name="pilihan" value="3" /><span class="pilABC">C</span><span id="pil3"></span>
+				</div>
+			</label>
+		</div>
+		<div class="wadahPil">
+			<label onclick="selectOption()">
+				<div class="pilihan" id="pilih4">
+					<input type="radio" name="pilihan" value="4" /><span class="pilABC">D</span><span id="pil4"></span>
+				</div>
+			</label>
+		</div>
+		<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Lanjut</button>
+	</div>
+	<img id="skor" class="skor" style="display:none;"></img>
+	<div id="result" class="container result" style="display:none;">
+	</div>
+	<script src="question.js"></script>
+	<script src="quiz-script.js"></script>
+
+</body>
+</html>
